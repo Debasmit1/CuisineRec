@@ -1,4 +1,4 @@
-let url = "http://www.themealdb.com/api/json/v1/1/filter.php?a=";
+let url = "https://www.themealdb.com/api/json/v1/1/filter.php?a=";
 let input = document.querySelector("input");
 let btn = document.querySelector("button");
 let main = document.querySelector("#main");
@@ -7,7 +7,7 @@ let arr = [];
 //strMeal , strMealThumb
 btn.insertAdjacentElement("beforebegin",select);
 
-let urlCnt = "http://www.themealdb.com/api/json/v1/1/list.php?a=list";
+let urlCnt = "https://www.themealdb.com/api/json/v1/1/list.php?a=list";
 
 async function insertOptions(){
     try {
